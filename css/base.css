@@ -1,0 +1,42 @@
+/* ===================================
+   base.css - Fundamental Styles
+  ==================================== */
+
+/* -----------------------------------
+  1. RESET
+  ------------------------------------ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -----------------------------------
+  2. GLOBAL STYLES
+  ------------------------------------ */
+
+html {
+  font-size: 15px; /* base for rem units */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-body); /* Outfit, sans-serif */
+  font-size: var(--fs-body);
+}

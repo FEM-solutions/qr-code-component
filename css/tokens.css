@@ -1,0 +1,39 @@
+/* ===================================
+   tokens.css  
+  ==================================== */
+
+:root {
+  /* Colors */
+
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  /* Spacings */
+
+  --spacing-200: 1.06rem; /* 15.9px */
+  --spacing-300: 1.6rem; /* 24px */
+  --spacing-500: 2.66rem; /* 39.9px */
+
+  /* Border Radius */
+
+  --border-radius-sm: 10px;
+  --border-radius-md: 20px;
+
+  /* Shadows */
+
+  --shadow-medium: 0px 25px 25px 0px rgba(0, 0, 0, 0.47);
+
+  /* Typography */
+
+  --ff-body: "Outfit", sans-serif;
+
+  --fs-body: 15px;
+  --fs-sm: 0.9rem; /*  13.5px */
+  --fs-md: 1rem; /* 15px */
+  --fs-lg: 1.47rem; /*  22.05px */
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}

@@ -1,0 +1,34 @@
+/* ===================================
+   footer.css 
+  ==================================== */
+
+.footer {
+  padding-block: var(--spacing-200);
+
+  text-align: center;
+  background-color: var(--slate-300);
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+  color: var(--slate-900);
+}
+
+.attribution-link {
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+}
+
+.attribution-link:hover,
+.attribution-link:focus-visible {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .attribution-link {
+    transition-duration: 0.01ms;
+  }
+}

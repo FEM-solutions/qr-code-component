@@ -1,0 +1,14 @@
+/* ===================================
+   layout.css 
+  ==================================== */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 100dvh;
+
+  padding: var(--spacing-200);
+
+  background-color: var(--slate-300);
+}
