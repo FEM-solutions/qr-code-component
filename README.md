@@ -41,8 +41,6 @@ The challenge was to build out this QR code component and get it as close as pos
 
 ![QR code component desktop screenshot](./screenshots/desktop-screenshot.png)
 
-[View more here](./screenshots/)
-
 ### Links
 
 - Live Site URL: [https://fem-solutions.github.io/qr-code-component](https://fem-solutions.github.io/qr-code-component)
@@ -106,16 +104,15 @@ qr-code-component/
 
 ##### Layout
 
-- 320px > 768px: small screens
-- 768px > 1440px: medium and large screens
+- **Mobile**: 320px - 768px
+- **Tablet/Desktop**: 768px - 1440px
+- **Desktop XL**: 1440px+
 
 ### What I learned
 
 #### Semantic HTML Structure
 
-This component follows a **single-component architecture** `article`:
-
-`article` represents a complete self-contained composition.
+The component uses a single-component architecture with the `article` element, which represents a self-contained, independent composition.
 
 ```html
 <article>
@@ -130,10 +127,12 @@ This component follows a **single-component architecture** `article`:
 
 #### CSS styles
 
-- Implemented a design system based on the `Figma design` and style guide, using `CSS custom properties` for colors, font styles and elements spacing
-- `logical properties`
-- `rem units` for responsive
-- `Media prefers-reduced-motion` for links
+Implemented a design system based on the Figma design and style guide, featuring:
+
+- **CSS custom properties** for colors, font styles and elements spacing
+- **Logical properties** for improved layout flexibility
+- **rem units** for consistent and responsive scaling
+- **prefers-reduced-motion media query** for accessibility
 
 ##### CSS Structure
 
